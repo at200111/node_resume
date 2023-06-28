@@ -1,0 +1,33 @@
+{
+  "name": "node_resume",
+  "version": "1.0.0",
+  "description": "node_resume",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/at200111/node_resume.git"
+  },
+  "keywords": [
+    "node",
+    "resume",
+    "mongo"
+  ],
+  "author": "at200111",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/at200111/node_resume/issues"
+  },
+  "homepage": "https://github.com/at200111/node_resume#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "mongoose": "^7.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
